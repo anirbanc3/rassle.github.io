@@ -1,15 +1,15 @@
-## Welcome to GitHub Pages
+## This is the website for RASSLE attack
 
-You can use the [editor on GitHub](https://github.com/anirbanc3/rassle.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+For more details on the paper, you can follow this link -> (https://tches.iacr.org/index.php/TCHES/article/view/8795/8395) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Short Summary of the attack
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this attack, we show that the OpenSSL implementation of scalar multiplication on P-256 curve has varying number of add-and-sub function calls, which depends on the secret scalar bits. We demonstrate through several experiments that the number of add-and-sub function calls can be used to template the secret bit, which can be picked up by the spy using the principles of RASSLE. We eventually demonstrate a full end-to-end attack on OpenSSL ECDSA using curve parameters of curve P-256.  We particularly abuse the deadline scheduler policy to attain perfect synchronization between the spy and victim, without any aid of induced synchronization from the victim process. This synchronization and timing leakage through RASSLE  is sufficient to retrieve theMost Significant Bits (MSB) of the ephemeral nonces used while signature generation, from which we subsequently retrieve the secret signing key of the sender applying the Hidden Number Problem.
 
-```markdown
-Syntax highlighted code block
+
+
+
 
 # Header 1
 ## Header 2
