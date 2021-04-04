@@ -1,6 +1,6 @@
 ## This is the website for RASSLE attack
 
-For more details on the paper, you can follow this link -> (https://tches.iacr.org/index.php/TCHES/article/view/8795/8395) 
+For more details on the paper, you can follow this link -> https://tches.iacr.org/index.php/TCHES/article/view/8795/8395
 
 
 ### Short Summary of the attack
